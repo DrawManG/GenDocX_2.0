@@ -1,0 +1,18 @@
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\Spire.Doc.dll
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\Spire.License.dll
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\Spire.Pdf.dll
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\Spire.Doc.xml
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\Spire.License.xml
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\Spire.Pdf.xml
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\obj\Debug\CreateTable.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\obj\Debug\CreateTable.Form1.resources
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\obj\Debug\CreateTable.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\obj\Debug\CreateTable.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\obj\Debug\CreateTable.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\obj\Debug\CreateTable.csproj.CopyComplete
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\General Table (beta).exe.config
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\General Table (beta).exe
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\bin\Debug\General Table (beta).pdb
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\obj\Debug\General Table (beta).exe
+C:\Users\Пользователь\source\repos\CreateTable\CreateTable\obj\Debug\General Table (beta).pdb
