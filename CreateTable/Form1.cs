@@ -26,8 +26,11 @@ namespace CreateTable
             Document document = new Document();
             // Создание секции
             Section section = document.AddSection();
-            // Создание таблиц с линиями 
+            // Создание таблицу 1 с линиями 
             Table table1 = section.AddTable(true);
+            //Отделение первой от второй таблицы
+            section.AddParagraph();
+            // Создание таблицу 2 с линиями
             Table table2 = section.AddTable(true);
             // Статическая информация в таблице
             string[] TIME_BASE = new string[] { "10:00 - 11:00", "11:00 - 12:00", "12:00 - 13:00", "13:00 - 13:30", "13:30 - 14:30", "14:30 - 16:00", "16:00 - 17:00", "17:00 - 18:00" };
@@ -45,11 +48,13 @@ namespace CreateTable
             // Создание первой информационной таблицы из 3ёх ячеек 
             table1.ResetCells(1, 2);
             table1[0, 0].AddParagraph().AppendText(Convert.ToString("Дата"));
+            table1[0, 0].Width = 200;
             table1[0, 1].SplitCell(2, 0);
             table1[0, 1].AddParagraph().AppendText(Convert.ToString("Время"));
+            table1[0, 1].Width = 230;
             table1[0, 2].AddParagraph().AppendText(Convert.ToString("Действие"));
-            //Отделение первой от второй таблицы
-            section.AddParagraph();
+            table1[0, 2].Width = 270;
+
             //Создание таблиц по количеству дней в месяце в два столбца
             table2.ResetCells(Day_in_Mounth, 2);
             // Создание уже нормального отчёта, разделение 2-ой ячейки ещё на 2 и их маштабирование
@@ -69,6 +74,7 @@ namespace CreateTable
                 cut = cut + 9;
             }
             sar = 0;
+
             // Суета с временем, вставка её на свои места
             for (int i = 0; i < Day_in_Mounth * 8; i++)
             {
